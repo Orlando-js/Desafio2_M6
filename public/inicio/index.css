@@ -1,0 +1,69 @@
+.navbar > div {
+  justify-content: center !important;
+  @media screen and (min-width: 286px) {
+    justify-content: space-between !important;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.hero_ver_carrito_cuenta {
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  outline: 2px solid black;
+  border-radius: 50%;
+  display: none;
+  width: 26px;
+  height: 26px;
+}
+.modal-body {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.modal-card {
+  box-sizing: border-box;
+  position: relative;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.modal-card img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.modal-card p {
+  border-top: 1px solid black;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.modal_card_delete {
+  position: absolute;
+  top: -6px;
+
+  right: -4px;
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}

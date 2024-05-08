@@ -1,0 +1,16 @@
+.card_producto_precio {
+  text-align: center;
+}
+.card_producto_precio span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.card_producto_descripcion {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 1/1;
+  max-width: 250px;
+}
